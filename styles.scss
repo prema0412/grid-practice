@@ -1,0 +1,38 @@
+header {
+  grid-area: header;
+  border: 2px solid blue;
+  text-align: center;
+}
+
+nav {
+  grid-area: menu;
+  border: 2px solid blue;
+  text-align: center;
+}
+
+aside {
+  grid-area: right;
+  border: 2px solid blue;
+  text-align: center;
+}
+
+main {
+  grid-area: main;
+  border: 2px solid blue;
+  text-align: center;
+}
+
+footer {
+  grid-area: footer;
+  border: 2px solid blue;
+  text-align: center;
+}
+
+div {
+  display: grid;
+  grid-template-areas: "header header header header header"
+   "menu main main main right" 
+   "menu footer footer footer footer";
+   border: 2px solid blue;
+  
+}
